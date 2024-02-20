@@ -115,8 +115,8 @@ require (
 
 replace (
 	// Import local packages.
-	github.com/awslabs/soci-snapshotter v0.0.0 => ../
-	github.com/awslabs/soci-snapshotter v0.0.0-local => ../
+	github.com/awslabs/soci-snapshotter v0.0.0 => github.com/awslabs/soci-snapshotter v0.0.0-20240214010409-2e3df4a92415
+	github.com/awslabs/soci-snapshotter v0.0.0-local => github.com/awslabs/soci-snapshotter v0.0.0-20240214010409-2e3df4a92415
 
 	// Temporary fork for avoiding importing patent-protected code: https://github.com/hashicorp/golang-lru/issues/73
 	github.com/hashicorp/golang-lru => github.com/ktock/golang-lru v0.5.5-0.20211029085301-ec551be6f75c
